@@ -1,21 +1,42 @@
 aid: lyracollective
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lyracollective.png
 name: Lyracollective
-description: 'Lyracollective is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Lyra Collective is a consumer-products holding company that owns and operates a portfolio
+  of everyday care brands across skincare, feminine care, and family and pet products, including LOLA,
+  EVER, QRX Labs, TriLASTIN, Nuvadermis, Natemia, Leash Boss, and Lusso Gear. It positions itself around
+  "Exceptional Care, For Everyday Moments," emphasizing clean, quality essentials sold direct-to-consumer
+  and through retail. Surfaced as a portfolio company of Norwest Venture Partners and added to the API
+  Evangelist network. As a consumer-brands operator it publishes no public developer portal, API, or
+  API documentation; there is no API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/lyracollective/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
+x-sector: consumer-packaged-goods
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Consumer Packaged Goods
+- Consumer Brands
+- E-Commerce
+- Personal Care
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,12 @@ maintainers:
 common:
 - type: Website
   url: https://lyracollective.com
+- type: Careers
+  url: https://jobs.lever.co/LyraCollective
+- type: LinkedIn
+  url: https://linkedin.com/company/lyracollective
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
